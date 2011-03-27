@@ -1,0 +1,241 @@
+/*
+ *
+ * My Stylesheet - default - simplified
+ *
+ * CSS 2.2
+ */
+
+/*  Basic settings
+ */
+ 
+div, h1, h2, h3, h4, body, p, th, td {
+	font-family: Verdana, Sans-serif;
+}
+
+h1 {
+	margin: 0px;
+}
+
+h3 {
+	margin: 0px;
+	padding: 0px;
+	font-size: medium;
+	color: rgb(0,0,60);
+}
+
+body {	/* background */
+	background-color: rgb(220,240,250);
+}
+
+th {
+	text-align: left;
+	border: solid 0px gray;
+	font-size: small;
+	background-color: white;
+}
+
+table {
+	background-color: white;
+	border: solid 0px gray;
+}
+
+/*  PageHeader
+ */
+
+div.pageHeader {
+	padding-top: 60px;
+	padding-bottom: 0px;
+	margin: 0px;
+	color: rgb(60,60,60);
+	text-align: left;
+	font-size: large;
+}
+
+a.header {
+	color: black;
+	text-decoration: none;
+}
+
+/*  PageHeader's menu
+ */
+
+div.pageHeaderMenu { /* menu found in the page header */
+	text-align: center;
+	padding-bottom: 2px;
+	border-top: 1px solid rgb(240,240,240);
+	color: gray;
+	background-color: black;
+	font-size: small;
+}
+
+a.menu { 
+	text-decoration: none;
+	color: rgb(244,244,244);
+}
+
+a.menu:hover {
+	color: rgb(255,252,198);
+	background-color: rgb(13,33,172);
+	border: 1px solid black;
+	font-size: 110%;
+}
+
+/*  Error and Status message
+ */
+
+div.error {
+	color: rgb(255,0,0);
+	font-size: medium;
+}
+
+div.status {
+	color: rgb(0,0,120);
+	font-size: medium;
+}
+
+/*  Page
+ */
+ 
+div.page {
+	width: 640px;
+	margin: 0 auto;
+	vertical-align: middle;
+}
+
+/*  Page Body
+ */
+
+div.pageBody {	
+	background-color: rgb(255,255,254);
+	border-bottom: solid 1px rgb(120,120,120);
+	border-right: solid 1px rgb(190,190,190);
+	border-left: solid 1px rgb(210,210,210);
+	border-top: solid 1px rgb(240,240,240);
+	padding: 16px;
+	margin-top: 0px;
+	font-size: small;
+}
+
+/*  1-2-3 columns flexi inside page body
+ */
+
+div.pageBodyLeft2, div.pageBodyLeft3  {
+    float: left;
+    padding: 10px;
+}
+
+div.pageBodyLeft2  {
+    width: 160px;
+}
+
+div.pageBodyLeft3  {
+    width: 140px;
+}
+
+div.pageBodyRight2, div.pageBodyRight3 {
+    float: right;
+    padding: 10px;
+    border-bottom: 1px solid rgb(180,180,180);
+    border-right: 1px solid rgb(180,180,180);
+   	background-color: rgb(240,240,240);
+}
+
+div.pageBodyRight2 {
+    width: 190px;
+}
+
+div.pageBodyRight3 {
+    width: 140px;
+}
+
+div.pageBodyMain1, div.pageBodyMain2, div.pageBodyMain3 {
+	float: left;
+    padding: 10px;
+}
+
+div.pageBodyMain1 {
+    width: 678px;
+}
+
+div.pageBodyMain2 {
+    width: 468px;
+}
+
+div.pageBodyMain3 {
+    width: 358px;
+}
+
+div.clear {
+	clear: both;
+}
+
+/*  Footer 
+ */
+
+footer {
+	background-color: rgb(30,30,30);
+	color: white;
+	text-align: center;
+	font-size: small;
+	padding: 0px;
+}
+
+/* Forum new post
+ */
+
+div.newpost {
+	padding: 0px;
+	margin-bottom: 32px;
+	margin-left: 60px;
+	margin-right: 60px;
+}
+
+/*  For things that should look like code 
+ */
+ 
+div.code {
+	font-family: 'Courier New', monospace;
+	background-color: rgb(240,240,240);
+	border: solid thin rgb(220,220,220);
+	padding: 2px;
+	padding-left: 12px;
+}
+
+/* Images
+ */
+
+img {
+	border: 6px black;
+	padding-left: 18px;
+	padding-right: 18px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+img.left {
+	float:left;
+}
+ 
+img.right {
+	float:right;
+}
+
+/*  Clean - to remove list bullets and things
+ */
+
+a.clean {
+	text-decoration: none;
+	color: rgb(10,10,10);
+}
+
+a.clean:hover {
+	color: rgb(0,0,60);
+	text-decoration: underline; 
+}
+
+ul.clean {
+	margin: 0 0 0px 0px;
+	list-style: none;
+}
+
+
